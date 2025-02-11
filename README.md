@@ -40,7 +40,7 @@ python fastq_matcher.py -f "YOUR_SEQUENCE" --parallel -T 8 -d tmp_dir -o final_r
 ## 工作流程
 1. **序列预处理**  
    自动生成四种变体模式：
-   - 正向序列（原序列小写）
+   - 正向序列
    - 互补序列
    - 反向序列
    - 反向互补序列
