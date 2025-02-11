@@ -1,6 +1,4 @@
 
-
-```markdown
 # FASTQ 序列匹配统计工具
 
 ## 功能描述
@@ -80,4 +78,4 @@ python fastq_matcher.py -f "YOUR_SEQUENCE" --parallel -T 8 -d tmp_dir -o final_r
 4. 当使用高容错阈值时（tolerance > 3），建议增加采样量
 
 > 遇到问题时，可添加 `-P` 参数查看实时处理进度，或检查临时目录中的中间结果文件。
-```
+
